@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QueryActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Screening Query"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:drawingCacheQuality="low"
+        android:filterTouchesWhenObscured="false"
+        android:text="Do you have fever above 101.4?"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Do you have Cough - (Wet Cough)?"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you have Cough - (Dry Cough)?"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you have Shortness of Breath?"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you have Flu?"
+        android:textSize="18sp" />
+
+
+    <CheckBox
+        android:id="@+id/cb6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:filterTouchesWhenObscured="false"
+        android:text="Have you travelled abroad in the last 15 days?\"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Have you been in contact with any person who has recently travelled internationally?"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you have chest infection?"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is your age more than or equal to 60 years of age?"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Due to Co-morbidities, do you take any medicine?"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Covid Screening App</string>
+    <string name="heading_r1"> High Probability of Corona!</string>
+    <string name="heading_r2"> Suspected for Corona!</string>
+    <string name="heading_r3">You are all Good!</string>
+    <string name="result_1">
+              \n 1:Isolate From Others.\n
+              2:Rest and Take Care.\n
+              3:Call Work Health Providers.\n
+              4:Monitor Symptoms.\n
+              5:Talk to Someone About Testing.\n
+              6:Follow Govt Instructions.\n
+    </string>
+    <string name="result_3">
+              \n1:No Test Needed At This Time.\n
+              2:Social Distance.\n
+              3:Avoid groups of people and keep six feet apart from anyone who’s not part of the household. Especially avoid those showing symptoms.\n
+    </string>
+    <string name="instruction">
+As of now, your answers suggest that you may need testing. If anything changes, take the questionnaire again.
+    </string>
+</resources>
